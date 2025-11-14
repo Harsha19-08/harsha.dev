@@ -1,6 +1,6 @@
-# Portfolio Website - Dhravya Shah Style
+# Portfolio Website - M Harshavardhan
 
-A modern, responsive portfolio website recreating the design aesthetic of [dhravya.dev](https://dhravya.dev/). Built with Vite, React, TypeScript, Tailwind CSS, and Framer Motion.
+A modern, responsive portfolio website for M Harshavardhan (Harsha). Built with Vite, React, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## ✨ Features
 
@@ -97,5 +97,5 @@ This project is open source and available under the MIT License.
 
 ## 🙏 Credits
 
-Design inspiration from [Dhravya Shah's portfolio](https://dhravya.dev/)
+Built by M Harshavardhan (Harsha) - [GitHub](https://github.com/Harsha19-08)
 

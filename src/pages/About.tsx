@@ -12,7 +12,7 @@ export default function About() {
 
           <div className="rounded-2xl overflow-hidden border border-border">
             <img
-              src="/src/assets/harshaimage.png"
+              src="/harshaimage.png"
               alt="Harshavardhan"
               className="w-full h-[400px] object-cover"
               loading="lazy"

@@ -230,7 +230,7 @@ export const Layout = ({ children }: LayoutProps) => {
                       className="block relative h-44 group cursor-pointer"
                     >
                       <img
-                        src="/src/assets/spotify.jpg"
+                        src="/spotify.jpg"
                         alt="Music playlist"
                         className="w-full h-full object-cover transition-transform group-hover:scale-105"
                         loading="lazy"

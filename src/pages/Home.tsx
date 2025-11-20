@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 export default function Home() {
   const socialLinks = [
     { icon: Github, href: "https://github.com/Harsha19-08", label: "GitHub" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:Optimist.Coder19@gmail.com", label: "Email" },
+    { icon: Twitter, href: "https://x.com/harsha_199", label: "Twitter" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/harsh199/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:mharshavardhan199@gmail.com", label: "Email" },
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       {/* Introduction */}
       <div className="space-y-6">
         <div>
-          <p className="text-muted-foreground mb-2">Hi, I'm <span className="text-primary font-semibold">Harshavardhan</span></p>
+          <p className="text-muted-foreground mb-2">Hi, I'm <span className="text-primary font-semibold">Harsha</span></p>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             I craft <span className="text-blue-500">digital experiences</span> that{" "}
             <span className="text-green-500">inspire</span>
@@ -77,7 +77,7 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
                 <a
-                  href="#" // Replace with your Google Drive link
+                  href="https://drive.google.com/file/d/18G5Bi6QuGthdpdBqmhX4h0jjD-uQsOsD/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-500 via-green-500 to-white text-foreground font-semibold text-sm rounded-full overflow-hidden shadow-[0_4px_16px_0_rgba(59,130,246,0.3)] hover:shadow-[0_8px_24px_0_rgba(59,130,246,0.5)] transition-all duration-300 hover:scale-105 active:scale-95 border border-white/20"

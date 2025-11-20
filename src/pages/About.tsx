@@ -12,9 +12,11 @@ export default function About() {
 
           <div className="rounded-2xl overflow-hidden border border-border">
             <img
-              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=600&fit=crop"
-              alt="Profile"
+              src="/src/assets/harshaimage.png"
+              alt="Harshavardhan"
               className="w-full h-[400px] object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 
@@ -43,11 +45,27 @@ export default function About() {
               </p>
 
               <p>
-                What sets me apart is not just my technical skills, but my approach to problem-solving. 
-                I don't just write code—I craft solutions that are elegant, maintainable, and built to last. 
-                Every project is an opportunity to push boundaries and create something remarkable.
+                Beyond building applications, I have a deep passion for <span className="text-foreground font-semibold">research 
+                and algorithmic thinking</span>. I'm fascinated by the intricate workings of algorithms, dissecting 
+                their efficiency, understanding their complexities, and discovering optimal solutions to challenging problems. 
+                Every algorithm is a puzzle waiting to be solved, and I thrive on diving deep into data structures, 
+                optimization techniques, and computational theory.
               </p>
 
+              <p>
+                What sets me apart is not just my technical skills, but my approach to problem-solving. 
+                I don't just write code, I craft solutions that are elegant, maintainable, and built to last. 
+                Every project is an opportunity to push boundaries and create something remarkable.
+              </p>
+              
+              <p className="border-l-4 border-primary pl-4 italic text-foreground">
+                "I sometimes wonder about not cracking IITs or NITs, those prestigious names everyone chases. 
+                But here's what I've learned: <span className="font-semibold">I never regret the journey</span>. 
+                I achieved something more valuable, an <span className="text-primary font-semibold">IIT-level skillset</span>, 
+                real-world experience at top companies like Microsoft, and a career that I'm genuinely proud of. 
+                The institution doesn't define you; your <span className="text-primary font-semibold">skills, dedication, and impact</span> do. 
+                That's the real validation."
+              </p>
               <p>
                 When I'm not immersed in code, you'll find me exploring new technologies, contributing to 
                 open-source projects, or sharing knowledge with the developer community. I believe in continuous 

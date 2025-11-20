@@ -1,7 +1,8 @@
 export default function Resume() {
   const technicalSkills = {
     "Languages": ["Java", "C++", "C", "Python", "JavaScript", "MongoDB", "HTML", "CSS", "MySQL", "Node", "Express", "React", "Redux", "Git & Github"],
-    "Technologies": ["AWS", "GCP", "Lamda", "IAM", "S3", "RDS", "VPS", "Cloud Computing", "Jenkins", "Docker", "CI/CD", "Nightwatch", "OOP"],
+    "Cloud Platforms": ["AWS (EC2, Lambda, RDS)", "Microsoft Azure (App Service, Functions, SQL)", "GCP", "IAM", "S3", "VPS"],
+    "Technologies": ["Cloud Computing", "Jenkins", "Docker", "CI/CD", "Nightwatch", "OOP"],
     "Core Concepts": ["Microservices", "Distributed Systems", "Agile Methodology", "Data Structures", "Algorithms", "DBMS", "Computer Networks"]
   };
 
@@ -11,12 +12,15 @@ export default function Resume() {
         <div className="flex justify-between items-start mb-8">
           <h1 className="text-4xl md:text-5xl font-bold">My Resume</h1>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/18G5Bi6QuGthdpdBqmhX4h0jjD-uQsOsD/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors text-sm font-medium"
+            className="px-6 py-2.5 bg-gradient-to-r from-primary via-blue-500 to-cyan-500 text-white font-semibold rounded-full hover:shadow-[0_8px_24px_0_rgba(99,102,241,0.4)] hover:scale-105 transition-all duration-300 text-sm flex items-center gap-2"
           >
-            Download PDF
+            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+            </svg>
+            Download Resume
           </a>
         </div>
 
@@ -33,7 +37,7 @@ export default function Resume() {
                 <div className="p-6 rounded-xl border border-white/10 bg-white/5 dark:bg-white/[0.02] backdrop-blur-lg hover:border-primary/30 transition-all duration-300">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-3">
                     <div>
-                      <h3 className="font-bold text-lg">Bachelor of Technology in Computer Science & Engineering</h3>
+                      <h3 className="font-bold text-lg">Bachelor of Technology in Information Technology</h3>
                       <p className="text-primary font-medium">MLR Institute of Technology (MLRIT), Hyderabad</p>
                     </div>
                     <span className="text-sm text-muted-foreground whitespace-nowrap">2022 - 2026</span>
@@ -55,7 +59,7 @@ export default function Resume() {
                     <span className="font-semibold text-foreground">Score:</span> 97%
                   </p>
                 </div>
-              </div>
+              </div> 
             </section>
 
             {/* Work Experience */}

@@ -230,9 +230,11 @@ export const Layout = ({ children }: LayoutProps) => {
                       className="block relative h-44 group cursor-pointer"
                     >
                       <img
-                        src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500&h=300&fit=crop"
+                        src="/src/assets/spotify.jpg"
                         alt="Music playlist"
                         className="w-full h-full object-cover transition-transform group-hover:scale-105"
+                        loading="lazy"
+                        decoding="async"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent flex flex-col justify-end p-4 transition-all group-hover:from-black/100">
                         <p className="text-white font-bold text-sm leading-snug mb-1.5">
@@ -261,7 +263,7 @@ export const Layout = ({ children }: LayoutProps) => {
                         Leave a message on my guestbook
                         <ExternalLink className="h-3.5 w-3.5" />
                       </Link>
-                      <a href="mailto:Optimist.Coder19@gmail.com" className="text-primary hover:underline flex items-center gap-1.5 text-sm">
+                      <a href="mailto:mharshavardhan199@gmail.com" className="text-primary hover:underline flex items-center gap-1.5 text-sm">
                         Send an email
                         <ExternalLink className="h-3.5 w-3.5" />
                       </a>

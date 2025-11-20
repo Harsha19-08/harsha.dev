@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Portfolio Website - M Harshavardhan
 
 A modern, responsive portfolio website for M Harshavardhan (Harsha). Built with Vite, React, TypeScript, Tailwind CSS, and Framer Motion.
+=======
+# Portfolio Website 
+
+A modern, responsive portfolio website recreating the design aesthetic of [harsha.dev]. Built with Vite, React, TypeScript, Tailwind CSS, and Framer Motion.
+>>>>>>> a0447e09268a354d0d2396c939e0c07356da9ac2
 
 ## ✨ Features
 
@@ -97,5 +103,9 @@ This project is open source and available under the MIT License.
 
 ## 🙏 Credits
 
+<<<<<<< HEAD
 Built by M Harshavardhan (Harsha) - [GitHub](https://github.com/Harsha19-08)
+=======
+Design inspiration from [Harshavardhan Muddada's portfolio]
+>>>>>>> a0447e09268a354d0d2396c939e0c07356da9ac2
 
